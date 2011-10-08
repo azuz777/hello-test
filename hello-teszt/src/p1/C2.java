@@ -5,5 +5,6 @@ package p1;
  */
 public class C2 {
 	public C2() {
+		System.out.println("Hello issue 1");
 	}
 }
