@@ -1,8 +1,7 @@
 package p1;
 
 /**
- * @author RvorosS
- *
+ * @author rRRvorosS
  */
 public class C2 {
 	public C2() {
