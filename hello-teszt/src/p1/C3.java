@@ -5,7 +5,9 @@ package p1;
  * 
  */
 public class C3 {
-	// bug L1 bug#L1 task#L1
+	/**
+	* bug L1 bug#1 task#1 
+	*/
 	public C3() {
 	}
 }
