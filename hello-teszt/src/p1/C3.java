@@ -16,6 +16,6 @@ public class C3 {
 	 * issue: #2
 	 */
 	private void sayHello() {
-		System.out.println("hello");
+		System.out.println("hello world");
 	}
 }
