@@ -1,10 +1,11 @@
 package p1;
 
-
 /**
  * @author rvoros
  * 
  */
 public class C3 {
-	// TODO add costructor
+	// bug L1 bug#L1 task#L1
+	public C3() {
+	}
 }
