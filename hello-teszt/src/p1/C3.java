@@ -10,6 +10,7 @@ public class C3 {
 	*/
 	public C3() {
 		sayHello();
+		sayHello2();
 	}
 	
 	/**
@@ -17,5 +18,9 @@ public class C3 {
 	 */
 	private void sayHello() {
 		System.out.println("hello world");
+	}
+
+	private void sayHello2() {
+		System.out.println("bla bla");
 	}
 }
