@@ -5,20 +5,23 @@ package p1;
  */
 public class C3 {
 	/**
-	* bug L1 bug#1 task#1 
-	*/
+	 * Constructor of the class.
+	 */
 	public C3() {
 		sayHello();
 		sayHello2();
 	}
-	
+
 	/**
-	 * issue: #2
+	 * Hello method.
 	 */
 	private void sayHello() {
 		System.out.println("hello world");
 	}
 
+	/**
+	 * Hello method 2.
+	 */
 	private void sayHello2() {
 		System.out.println("bla bla");
 	}

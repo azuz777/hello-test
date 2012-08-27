@@ -1,10 +1,13 @@
 package p1;
 
+/**
+ * @author rvoros
+ */
 public class C1 {
 
 	/**
-	 * @author rvoros
-	 * @param argsSD
+	 * The main class.
+	 * @param args
 	 */
 	public static void main(String[] args) {
 		System.out.println("hello worlddx");
