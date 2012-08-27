@@ -2,7 +2,6 @@ package p1;
 
 /**
  * @author rvoros
- * 
  */
 public class C3 {
 	/**
