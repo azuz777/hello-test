@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Hello - teszt" default="hello-teszt" basedir=".">
+	<property name="HelloText" value="Hello"/>
+	<property name="build.filename" value="version.properties" />
+	
+	<target name="hello-teszt">
+		<echo>${HelloText}</echo>
+	</target>
+
+	<target name="buildIncrase">
+		<propertyfile file="${build.filename}" comment="Build Information File - DO NOT CHANGE">
+			<entry key="build.number" type="int" default="0" operation="+" pattern="0" />
+			<entry key="build.date" type="date" value="now" pattern="yyyy.MM.dd HH:mm:ss" />
+			<entry key="version.prefix" type="string" value="1.0.0" />
+		</propertyfile>
+	</target>
+</project>
